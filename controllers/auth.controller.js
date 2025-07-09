@@ -64,7 +64,7 @@ export const register = async (req, res) => {
 
     return res.status(201).json({
       message: "Royxatdan otildi. Emailingizni tekshiring.",
-      token,
+     
     });
 
   } catch (err) {
